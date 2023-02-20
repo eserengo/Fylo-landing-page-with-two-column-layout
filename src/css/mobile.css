@@ -1,0 +1,110 @@
+@import "variables.css";
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 20%;
+  border: 1px solid var(--LightGrayishBlue-Neutral);
+  background-color: var(--LightGrayishBlue-Neutral);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px var(--VeryDarkBlue-Primary), 0px 2px 16px var(--LightGray-Neutral);
+  color: var(--VeryDarkBlue-Primary);
+  padding: 4%;
+  font-family: var(--Raleway-Headings-CallToActions-HeaderNavigation);
+  font-size: 125%;
+}
+
+.modal .flex-col {
+  gap: 8px;
+}
+
+.header .fa {
+  font-size: 150%;
+  margin-top: 2px;
+}
+
+.main {
+  padding: 20% 5%;
+}
+
+.grid.one {
+  padding: 10% 0% 20%;
+}
+
+.primary.para {
+  padding: 10%;
+}
+
+.form-action {
+  gap: 24px;
+  padding: 0% 10%;
+}
+
+.input,
+.button {
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.message {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.grid.three .secondary.title {
+  margin: 25% auto 10%;
+}
+
+.grid.three .secondary.para {
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+.grid.three .flex-row {
+  gap: 8px;
+}
+
+.aside {
+  padding: 15% 10%;
+}
+
+.aside .para {
+  padding: 10% 0%;
+}
+
+.aside .form-action {
+  width: 100%;
+  padding: 0%;
+}
+
+.footer {
+  padding: 15% 10% 10%;
+}
+
+.footer .logo {
+  margin: 5% 0%;
+}
+
+.footer .nav {
+  margin-top: 30%;
+  gap: 48px;
+}
+
+.contact,
+.contact .flex-row,
+.links .flex-col,
+.social {
+  gap: 16px;
+}
+
+.links {
+  gap: 32px;
+}

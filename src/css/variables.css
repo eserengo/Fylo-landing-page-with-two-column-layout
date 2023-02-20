@@ -1,0 +1,15 @@
+:root {
+  --Raleway-Headings-CallToActions-HeaderNavigation: "Raleway";
+  --OpenSans-BodyCopy: "Open Sans";
+  --FontBold: 700;
+
+  --VeryDarkBlue-Primary: hsl(243, 87%, 12%);
+  --DesaturatedBlue-Primary: hsl(238, 22%, 44%);
+  --BrightBlue-Accent: hsl(224, 93%, 58%);
+  --ModerateCyan-Accent: hsl(170, 45%, 43%);
+  --LightGrayishBlue-Neutral: hsl(240, 75%, 98%);
+  --LightGray-Neutral: hsl(0, 0%, 75%);
+  --Red: hsl(0, 100%, 76%);
+  --Green: hsl(120, 100%, 77%);
+  --White-Background: hsl(0, 0%, 99%);
+}

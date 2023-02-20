@@ -1,0 +1,212 @@
+ /* 
+ Name: Fylo landing page with two column layout.
+ Description: A Frontendmentor.io coding challenge.
+ Author: Federico Borzani.
+ Author URL:  https://github.com/eserengo/ 
+ */
+
+@import "variables.css";
+
+:root {
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--White-Background);
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+input[type=email],
+button[type=submit] {
+  outline: none;
+  appearance: none;
+}
+
+label {
+  display: none;
+}
+
+.header {
+  height: 64px;
+  padding: 16px;
+  color: var(--VeryDarkBlue-Primary);
+}
+
+.header .logo {
+  width: 120px;
+}
+
+.header .nav li:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-family: var(--Raleway-Headings-CallToActions-HeaderNavigation);
+  font-weight: var(--FontBold);
+}
+
+.primary.title {
+  font-size: 130%;
+  letter-spacing: 1px;
+  color: var(--VeryDarkBlue-Primary);
+}
+
+.secondary.title {
+  font-size: 110%;
+}
+
+.para {
+  font-family: var(--OpenSans-BodyCopy);
+}
+
+.primary.para {
+  font-size: 90%;
+  color: var(--VeryDarkBlue-Primary);
+}
+
+.input {
+  border: 1px solid var(--VeryDarkBlue-Primary);
+  border-radius: 4px;
+  font-family: var(--OpenSans-BodyCopy);
+  font-size: 90%;
+  color: var(--VeryDarkBlue-Primary);
+}
+
+.input::placeholder {
+  font-family: var(--OpenSans-BodyCopy);
+  font-size: 90%;
+  color: var(--LightGray-Neutral);
+}
+
+.message {
+  font-family: var(--OpenSans-BodyCopy);
+  font-size: 70%;
+}
+
+.button {
+  background-color: var(--BrightBlue-Accent);
+  border: 1px solid var(--BrightBlue-Accent);
+  border-radius: 4px;
+  font-family: var(--Raleway-Headings-CallToActions-HeaderNavigation);
+  font-size: 90%;
+  font-weight: var(--FontBold);
+  color: var(--LightGrayishBlue-Neutral);
+  opacity: 80%;
+}
+
+.button:hover {
+  opacity: 100%;
+  box-shadow: 0px 1px 8px var(--BrightBlue-Accent);
+}
+
+.grid.three .secondary.title {
+  color: var(--VeryDarkBlue-Primary);
+}
+
+.grid.three .secondary.para {
+  font-size: 90%;
+  color: var(--DesaturatedBlue-Primary);
+}
+
+.link {
+  color: var(--ModerateCyan-Accent);
+}
+
+.card {
+  border: 1px solid var(--LightGrayishBlue-Neutral);
+  background-color: var(--LightGrayishBlue-Neutral);
+  border-radius: 4px;
+  box-shadow: 0px 2px 8px var(--DesaturatedBlue-Primary), 0px 2px 16px var(--LightGray-Neutral);
+  margin: 5%;
+  padding: 10% 5% 5%;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 6% 10%;
+  gap: 16px;
+}
+
+.grid.three .icon {
+  vertical-align: middle;
+}
+
+.grid.three .sub.para {
+  color: var(--VeryDarkBlue-Primary);
+  font-family: var(--OpenSans-BodyCopy);
+  font-size: 70%;
+  text-align: left;
+}
+
+.name {
+  color: var(--VeryDarkBlue-Primary);
+  font-family: var(--OpenSans-BodyCopy);
+  font-size: 50%;
+  text-align: left;
+}
+
+.name strong {
+  font-size: 130%;
+  font-weight: var(--FontBold);
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.aside {
+  background-color: var(--DesaturatedBlue-Primary);
+  color: var(--LightGrayishBlue-Neutral);
+}
+
+.aside .para {
+  font-size: 90%;
+}
+
+.footer {
+  background-color: var(--VeryDarkBlue-Primary);
+  color: var(--LightGrayishBlue-Neutral);
+}
+
+.footer .nav {
+  font-family: var(--OpenSans-BodyCopy);
+}
+
+.footer .fa {
+  border: 1px solid var(--LightGrayishBlue-Neutral);
+  border-radius: 50%;
+  color: var(--LightGrayishBlue-Neutral);
+  padding: 6px 8px;
+}
+
+.footer .fa:hover {
+  border: 1px solid var(--ModerateCyan-Accent);
+  color: var(--ModerateCyan-Accent);
+}
+
+.links li:hover {
+  color: var(--ModerateCyan-Accent);
+  text-decoration: underline;
+}
+
+.attribution {
+  display: block;
+  text-align: center;
+  font-family: var(--OpenSans-BodyCopy);
+  font-size: 70%;
+  margin-top: 8px;
+}

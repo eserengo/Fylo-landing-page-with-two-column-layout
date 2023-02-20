@@ -1,0 +1,142 @@
+@import "variables.css";
+
+.header .nav ul {
+  font-family: var(--Raleway-Headings-CallToActions-HeaderNavigation);
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.main {
+  padding: 5% 5% 15%;
+}
+
+.grid.container {
+  display: grid;
+  grid-template-columns: 58% 40%;
+  grid-template-rows: 40% 50%;
+  column-gap: 2%;
+  row-gap: 10%;
+}
+
+.grid.one {
+  order: 1;
+  padding: 10% 0%;
+}
+
+.grid.one .primary.para {
+  padding: 5% 0%;
+}
+
+.grid.one .form-action {
+  gap: 8px;
+}
+
+.grid.one .form-action .input,
+.grid.one .form-action .button {
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.grid.one .form-action .input {
+  width: 50%;
+}
+
+.grid.one .form-action .button {
+  width: 35%;
+}
+
+.message {
+  width: 100%;
+  position: absolute;
+  left: 1%;
+  top: 100%;
+  z-index: 2;
+}
+
+.grid.two {
+  order: 2;
+  width: 100%;
+  height: 100%;
+  padding: 0% 5%;
+}
+
+.grid.three {
+  order: 3;
+}
+
+.grid.three .secondary.title {
+  padding-bottom: 2.5%;
+}
+
+.grid.three .secondary.para {
+  padding-bottom: 2.5%;
+  padding-right: 15%;
+}
+
+.card {
+  margin: 2.5% 0%;
+  width: 60%;
+}
+
+.grid.three .flex-row {
+  gap: 8px;
+}
+
+.grid.four {
+  order: 4;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+}
+
+.aside {
+  padding: 5%;
+  gap: 20%;
+}
+
+.aside .flex-col {
+  width: 40%;
+  gap: 32px;
+}
+
+.aside .form-action {
+  gap: 24px;
+}
+
+.aside .form-action .input,
+.aside .form-action .button {
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.aside .form-action .input {
+  width: 100%;
+}
+
+.aside .form-action .button {
+  width: 50%;
+}
+
+.aside .message {
+  top: 40%;
+}
+
+.footer {
+  padding: 10% 5% 5%;
+}
+
+.footer .nav {
+  margin-top: 10%;
+  gap: 80px;
+}
+
+.contact,
+.contact .flex-row,
+.links .flex-col,
+.social {
+  gap: 16px;
+}
+
+.links {
+  gap: 40px;
+}
